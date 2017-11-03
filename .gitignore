@@ -1,6 +1,7 @@
-node_modules
-package-lock.json
-.env
-__tmp__
-__backup__
+/package-lock.json
+/node_modules
+/.env
+nohup.out
 __save__
+__temp__
+__backup__

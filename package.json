@@ -1,19 +1,32 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "fx-atramedes",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "serve": "node main.js"
+    "start": "node ./bin/www",
+    "debug": "nodemon npm start"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "adm-zip": "^0.4.7",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
     "dotenv": "^4.0.0",
-    "formidable": "^1.1.1",
+    "express": "~4.15.5",
+    "express-easy-zip": "^1.1.4",
+    "express-fileupload": "^0.3.0",
+    "fstream": "^1.0.11",
+    "jade": "~1.11.0",
+    "mongodb": "^2.2.33",
+    "morgan": "~1.9.0",
     "ncp": "^2.0.0",
     "node-datetime": "^2.0.3",
+    "node-gyp": "^3.6.2",
+    "path": "^0.12.7",
     "rimraf": "^2.6.2",
-    "unzip": "^0.1.11"
+    "serve-favicon": "~2.4.5",
+    "unzip": "^0.1.11",
+    "unzip-stream": "^0.1.2",
+    "zstream": "^0.1.1"
   }
 }
